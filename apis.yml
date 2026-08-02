@@ -1,8 +1,26 @@
 aid: tepali
 name: Tepali
-description: Tepali is a company surfaced as a portfolio company of y-combinator and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Tepali is an AI-native operating system for medical spas and aesthetic and
+  wellness practices. It replaces fragmented point solutions with a single system of record,
+  combining marketing intelligence, online scheduling, team management, patient CRM, clinical
+  charting, and inventory. AI agents handle front-desk phone calls around the clock, generate
+  real-time patient documentation such as SOAP notes, treatment summaries, and consent forms,
+  and convert inbound leads into booked appointments. Founded in 2026 and backed by Y Combinator
+  (W26), the company is headquartered in New York City. Tepali currently ships a hosted web
+  application at app.tepali.com and does not publish a public developer API, SDKs, or documentation.
 url: https://raw.githubusercontent.com/api-evangelist/tepali/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.tepali.com/tepali-logo-white-on-teal.svg
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,12 +29,37 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Health
+- Medical Spa
+- Aesthetics
+- Wellness
+- Practice Management
+- Artificial Intelligence
+- SaaS
+- Scheduling
+- Patient CRM
 apis: []
+common:
+- type: DomainSecurity
+  url: security/tepali-domain-security.yml
+- type: Website
+  url: https://www.tepali.com/
+- type: SignUp
+  url: https://app.tepali.com
+- type: Login
+  url: https://www.tepali.com/login
+- type: PrivacyPolicy
+  url: https://www.tepali.com/privacy
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
