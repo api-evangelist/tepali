@@ -9,6 +9,17 @@ description: Tepali is an AI-native operating system for medical spas and aesthe
   (W26), the company is headquartered in New York City. Tepali currently ships a hosted web
   application at app.tepali.com and does not publish a public developer API, SDKs, or documentation.
 url: https://raw.githubusercontent.com/api-evangelist/tepali/refs/heads/main/apis.yml
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
